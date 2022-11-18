@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.539" height="19.538" viewBox="0 0 19.539 19.538">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.87" y1="0.187" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4e65ff"/>
+      <stop offset="1" stop-color="#dc56f5"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_awesome-facebook-messenger" data-name="Icon awesome-facebook-messenger" d="M10.354.563A9.439,9.439,0,0,0,.563,10.039a9.262,9.262,0,0,0,3.075,7.01c.329.3.261.467.317,2.294a.785.785,0,0,0,1.1.692c2.084-.918,2.111-.99,2.464-.894,6.039,1.662,12.584-2.2,12.584-9.1A9.4,9.4,0,0,0,10.354.563Zm5.879,7.293-2.876,4.553a1.472,1.472,0,0,1-2.124.391L8.945,11.087a.591.591,0,0,0-.709,0L5.149,13.428a.464.464,0,0,1-.674-.617L7.351,8.258a1.472,1.472,0,0,1,2.124-.391l2.287,1.712a.591.591,0,0,0,.709,0L15.56,7.24a.463.463,0,0,1,.673.615Z" transform="translate(-0.563 -0.563)" fill="url(#linear-gradient)"/>
+</svg>
