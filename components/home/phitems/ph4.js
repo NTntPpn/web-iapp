@@ -2,15 +2,15 @@ import React from 'react'
 import Image from 'next/image'
 function ph4() {
   return (
-    <div className='w-[232px]'>
-      <div className='w-[216px] h-[328px] rounded-md font-suk drop-shadow-lg bg-white'>
-            <Image src="/robot-01@2x.png" width={216} height={216}/>
-            <div className='text-[14px] h-[22px] mt-[11px] w-full px-[12px] tracking-tight'>Robot</div>
-            <div className='text-[14px] font-light h-[40px] mt-[1px] px-[12px] tracking-wide'>หุ่นยนต์ผู้ช่วยพร้อมระบบปฏิบัติการภาษาไทย</div>
-            <div className='text-[12px] text-right text-[#8C8C8C] font-light h-[19px] mt-[2px] px-[16px]'>ดูเพิ่มเติม &gt;&gt; </div>
+      <div className='w-[168px] md:w-[232px]'>
+        <div className='w-[168px] md:w-[216px] h-[294px] md:h-[328px] rounded-md font-suk drop-shadow-lg bg-white'>
+          <Image src="/robot-01@2x.png" width={1000} height={1000}/>
+              <div className='text-[14px] h-auto md:h-[22px] mt-[11px] w-full px-[12px] tracking-tight'>robot-01@2x.png</div>
+              <div className='text-[14px] font-light h-auto md:h-[40px] mt-[1px] px-[12px] tracking-tight'>หุ่นยนต์ผู้ช่วยพร้อมระบบปฏิบัติการภาษาไทย</div>
+              <div className='text-[12px] text-right text-[#8C8C8C] font-light h-[19px] mt-[2px] px-[16px] hidden md:block'>ดูเพิ่มเติม &gt;&gt; </div>
         </div>
-    </div>
-    
+      </div>
+  
   )
 }
 

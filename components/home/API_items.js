@@ -7,17 +7,16 @@ import At5 from './aiitems/at5'
 function ai_items() {
   return (
     
-        <div className='w-screen h-auto bg-[#FAFAFA] pt-[32px]'>
-            <div className='pl-[144px] text-[38px] font-semibold font-suk'>
+            <div className='w-screen h-auto bg-[#FAFAFA] pt-[69px]'>
+            <div className='pl-[16px] md:pl-[144px] text-[16px] md:text-[38px] font-semibold font-suk'>
                 API ยอดฮิต
             </div>
-            <div className='px-[144px] w-full flex '>
+            <div className='px-[16px] md:px-[144px] w-full flex flex-wrap xl:flex-nowrap mt-[8px] md:mt-0 gap-[7px] md:gap-[3px]'>
                 <At1/>
                 <At2/>
                 <At3/>
                 <At4/>
                 <At5/>
-                
             </div>
         </div>
   )

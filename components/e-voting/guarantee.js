@@ -2,19 +2,19 @@ import React from 'react';
 import Image from 'next/image';
 function Guarantee () {
     return (
-        <div className='font-suk pt-[165px] bg-[#FAFAFA]'>
-        <div className='w-screen h-auto '>
-            <div className='pl-[144px] text-[38px] font-semibold font-suk'>
+        <div className='font-suk pt-[40px] md:pt-[165px] bg-[#FAFAFA] px-[16px] md:px-[144px]'>
+        <div className='w-full h-auto '>
+            <div className='text-[16px] md:text-[38px] font-semibold font-suk'>
                 การันตีความปลอดภัยเพิ่มขึ้นกับ 3 บริการระดับโลก
             </div>
-            <div className='px-[144px] w-full flex gap-[38px] mt-[24px] '>
+            <div className='w-full flex flex-wrap xl:flex-nowrap gap-[38px] mt-[24px] '>
 
-                <div className='w-[368px] h-auto shadow-xl rounded-lg text-center justify-center pb-[44px]'> 
-                    <div className='mt-[16px] w-[360px] mx-auto'>
+                <div className='w-full md:w-[368px] h-auto shadow-xl rounded-lg text-center justify-center pb-[44px] bg-white'> 
+                    <div className='mt-[16px] w-full md:w-[360px] mx-auto'>
                         <Image src="/e-voting/sendgrid@2x.png" width={360} height={168}/>
                     </div>
-                    <div className='text-[16px] mt-[16px]'>
-                        <div className='flex text-center justify-center mt-[40px]'>
+                    <div className='text-[16px] mt-[16px] pl-[38px] md:pl-[40px]'>
+                        <div className='flex mt-[40px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -22,7 +22,7 @@ function Guarantee () {
                                 บริการด้านการส่งอีเมลระดับโลก
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -30,7 +30,7 @@ function Guarantee () {
                             จัดการทำ SPF และ DKIM
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -38,7 +38,7 @@ function Guarantee () {
                             Monitor และส่งออกผล ของอีเมลได้
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -46,7 +46,7 @@ function Guarantee () {
                             สร้าง IP Address 2 ชุด เพื่อสำรอง
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -54,7 +54,7 @@ function Guarantee () {
                             ความเร็วในการส่ง 1.9 วินาที
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]' >
+                       <div className='flex mt-[24px]' >
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -65,12 +65,12 @@ function Guarantee () {
                     </div>
                 </div>
 
-                <div className='w-[368px] h-auto shadow-xl rounded-lg text-center justify-center pb-[44px]'> 
-                    <div className='mt-[16px] w-[360px] mx-auto'>
+                <div className='w-full md:w-[368px] h-auto shadow-xl rounded-lg text-center justify-center pb-[44px] bg-white'> 
+                    <div className='mt-[16px] w-full md:w-[360px] mx-auto'>
                         <Image src="/e-voting/google cloud@2x.png" width={360} height={168}/>
                     </div>
-                    <div className='text-[16px] mt-[16px]'>
-                        <div className='flex text-center justify-center mt-[40px]'>
+                    <div className='text-[16px] mt-[16px] pl-[38px] md:pl-[40px]'>
+                        <div className='flex mt-[40px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -78,7 +78,7 @@ function Guarantee () {
                             มีเสถียรภาพสูง
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -86,7 +86,7 @@ function Guarantee () {
                             รองรับผู้ใช้งานจำนวนมาก
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -94,7 +94,7 @@ function Guarantee () {
                             เครื่องมือในการทำงานพร้อม
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -102,7 +102,7 @@ function Guarantee () {
                             มี Server กระจายอยู่ทั่วโลก
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -110,7 +110,7 @@ function Guarantee () {
                             ออกแบบมาเพื่อความปลอดภัย
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]' >
+                       <div className='flex mt-[24px]' >
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -121,12 +121,12 @@ function Guarantee () {
                     </div>                
                 </div>
 
-                <div className='w-[368px] h-auto shadow-xl rounded-lg text-center justify-center pb-[44px]'> 
-                    <div className='mt-[16px] w-[360px] mx-auto'>
+                <div className='w-full md:w-[368px] h-auto shadow-xl rounded-lg text-center justify-center pb-[44px] bg-white'> 
+                    <div className='mt-[16px] w-full md:w-[360px] mx-auto'>
                         <Image src="/e-voting/ANTS@2x.png" width={360} height={168}/>
                     </div>
-                    <div className='text-[16px] mt-[16px]'>
-                        <div className='flex text-center justify-center mt-[40px]'>
+                    <div className='text-[16px] mt-[16px] pl-[38px] md:pl-[40px]'>
+                        <div className='flex mt-[40px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -134,7 +134,7 @@ function Guarantee () {
                             ผู้เชี่ยวชาญด้าน SMS Marketing
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -142,7 +142,7 @@ function Guarantee () {
                             ส่ง SMS แบบ Priority Whitelist
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -150,7 +150,7 @@ function Guarantee () {
                             ส่งครบทุกเครื่อค่าย AIS, True, DTAC
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -158,7 +158,7 @@ function Guarantee () {
                             ส่งข้อความภายใน 5 วินาที
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]'>
+                       <div className='flex mt-[24px]'>
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
@@ -166,7 +166,7 @@ function Guarantee () {
                             มีรายงานการส่ง SMS
                             </div>
                         </div>
-                       <div className='flex text-center justify-center mt-[24px]' >
+                       <div className='flex mt-[24px]' >
                             <div>
                                 <Image src="/e-voting/Icon ionic-ios-checkmark-circle-outline@2x.png" width={24} height={24}/>
                             </div>
